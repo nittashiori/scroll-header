@@ -1,0 +1,81 @@
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #fff;
+  background-image: none !important;
+  color: #222;
+  font-family: Helvetica, "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "Hiragino Kaku Gothic ProN", sans-serif;
+  font-size: 13px;
+  line-height: 180%;
+  margin: 0;
+  padding: 0;
+}
+@media screen and (min-width: 751px) {
+  body {
+    font-size: 1.3rem;
+  }
+}
+
+header, footer, main, section, article, nav, h1, h2, h3, h4, h5, p, ul, ol, li, form, label, legend, div, dl, dt, dd, figure, figcaption, input, text-box, select {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header, footer, main, section, article, nav {
+  display: block;
+}
+
+table {
+  border-spacing: 0;
+}
+
+button {
+  border: 1px solid transparent;
+}
+
+::marker {
+  color: transparent;
+}
+
+input,
+button,
+select,
+textarea {
+  appearance: none;
+  border: transparent;
+  background: transparent;
+  outline: none;
+}
+
+.header {
+  background-color: #EEEFF1;
+  margin-block-start: 30px;
+  margin-block-end: 30px;
+  margin-inline-start: 20px;
+  margin-inline-end: 20px;
+}
+@media screen and (min-width: 751px) {
+  .header {
+    max-width: 1440px;
+  }
+}
+
+@media screen and (min-width: 751px) {
+  .footer {
+    text-align: left;
+    padding: 80px 0 0 170px;
+    margin: 0 auto;
+    max-width: 1440px;
+  }
+}
+
+.about {
+  background: #222;
+  color: #fff;
+}
+
+/*# sourceMappingURL=style.css.map */
