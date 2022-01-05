@@ -1,0 +1,42 @@
+@use '../global/index' as global;
+
+html {
+  font-size: global.$font-size-base;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: global.colors(white);
+  background-image: none !important;
+  color: global.colors(text);
+  font-family: global.$font-family;
+  font-size: 13px;
+  line-height: global.$line-height-base;
+  margin: 0;
+  padding: 0;
+  @include global.media(md) {
+    font-size: 1.3rem;
+  }
+}
+
+header,footer,main,section,article,nav,h1,h2,h3,h4,h5,p,ul,ol,li,form,label,legend,div,dl,dt,dd,figure,figcaption,input,text-box,select {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header,footer,main,section,article,nav {
+  display: block;
+}
+
+table {
+  border-spacing: 0;
+}
+
+button {
+  border: 1px solid transparent;
+}
+
+::marker {
+  color: transparent;
+}

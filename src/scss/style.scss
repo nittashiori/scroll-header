@@ -1,0 +1,18 @@
+// base
+// ------------------------------------
+@use 'foundation';
+@use 'foundation/form';
+
+// layout
+// ------------------------------------
+@use 'layouts/header';
+@use 'layouts/footer';
+@use 'layouts/sidenav';
+
+// page
+// ------------------------------------
+@use 'page/about';
+
+// state
+// ------------------------------------
+@use 'state/slider';

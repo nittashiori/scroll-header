@@ -1,0 +1,11 @@
+@use '../global/index' as global;
+
+input,
+button,
+select,
+textarea {
+  appearance: none;
+  border: transparent;
+  background: transparent;
+  outline: none;
+}
